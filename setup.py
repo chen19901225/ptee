@@ -22,7 +22,7 @@ version = read_version()
 print("version:{}".format(version))
 
 setuptools.setup(
-    name=name,  # Replace with your own username
+    name="cqh_ptee",  # Replace with your own username
     version=version,
     author="chenqinghe",
     author_email="1832866299@qq.com",
@@ -37,7 +37,7 @@ setuptools.setup(
     ],
     entry_points={
         "console_scripts": [
-            "ptee = ptee.run:main",
+            "cqh_ptee = ptee.run:main",
         ],
     },
     python_requires='>=3.6',

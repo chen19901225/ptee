@@ -1,4 +1,4 @@
-proj_name="ptee"
+proj_name="cqh_ptee"
 alias tryl='python ${proj_name}/run.py --level=debug --conf=example.json'
 alias try='cqh_tail --pattern=/home/vagrant/logs/*.log'
 alias try1="python -m cqh_tail --pattern='/home/vagrant/logs/*.log'"
