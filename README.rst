@@ -9,16 +9,20 @@ something like `tee` but support rotate logs
 Usage
 -------------------------------------------------
 
-watch dir
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-.. code-block::
+* save to path
 
-    cqh_tail --pattern=~/**/*.log
 
-watch dir and filter
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+   ptee --path=/tmp/log/one.log
 
-.. code-block::
+* set backup count
 
-    cqh_tail --pattern=~/**/*.log --line-filter="\.general/"
+   ptee --path=/tmp/log/one.log --backup=7
+
+ set file size
+
+   ptee --path=/tmp/log/one.log --max_byte=50m
+
+* with debug
+
+   ptee --path=/tmp/log/one.log --debug=1
