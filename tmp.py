@@ -1,0 +1,1 @@
+f = open("/tmp/a.log", "a", encoding="utf-8")
