@@ -19,7 +19,7 @@ Usage
 
    ptee --path=/tmp/log/one.log --backup=7
 
- set file size
+* set file size
 
    ptee --path=/tmp/log/one.log --max_byte=50m
 
